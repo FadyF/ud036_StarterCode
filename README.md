@@ -9,7 +9,7 @@
 
 ## Installation
   
-  * Python needed to be installed on computer [here]((https://www.python.org/downloads/))
+  * Python needed to be installed on computer  (https://www.python.org/downloads/)
   
   * Within the download, there will be 3 files to use :
      
@@ -45,3 +45,12 @@
   you submit it, it's your own responsibility if you get expelled.
 
   Copyright (c) 2017 Fady Fouad
+  
+  ## Resources 
+   
+   1- https://gist.github.com/laramartin/7796d730bba8cf689f628d9b011e91d8
+  
+   2- https://google.github.io/styleguide/pyguide.html
+   
+   3- https://www.python.org/dev/peps/pep-0008/
+   
