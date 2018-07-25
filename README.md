@@ -7,14 +7,19 @@
    imagery and movie trailer website.  
 
 
-##Installation
+## Installation
   
   * Python needed to be installed on computer [here]((https://www.python.org/downloads/))
+  
   * Within the download, there will be 3 files to use :
+     
      *entertainement_center_movies
-     *media.py
-     *fresh_tomatoes.py
-  * open "entertainement_center_movies" file and run it.
+    
+    *media.py
+    
+    *fresh_tomatoes.py
+ 
+ * open "entertainement_center_movies" file and run it.
 
 ## Usage
   
