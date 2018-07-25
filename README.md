@@ -23,7 +23,7 @@
 
 ## Usage
   
-  * `fresh_tomatoes.open_movies_page(movies)` allow the creation of an html file
+  `fresh_tomatoes.open_movies_page(movies)` allow the creation of an html file
 
 ## Contributions
   
