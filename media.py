@@ -1,16 +1,15 @@
-#importing webbrowser module to open the browser window for trailer
+# importing webbrowser module to open the browser window for trailer
 
 import webbrowser
 
+
 class Movie():
-        
+
         """ this class provides a way to store movie related information"""
 
-        #valid ratings is a constant variable for all instances
+        # valid ratings is a constant variable for all instances
 
-        VALID_RATINGS = ["G", "PG", "PG-13","R"]
-        
-
+        VALID_RATINGS = ["G", "PG", "PG-13", "R"]
         # init method is a constructor that initializes the data.
         # self is the instance.
 	def __init__(self, movie_title, movie_duration, movie_release_date, movie_storyline,movie_director, poster_image,
@@ -30,13 +29,4 @@ class Movie():
 
         def show_trailer(self):
                 webbrowser.open(self.trailer_youtube_url)
-        
 
-
-
-
-
-
-
-
-        
