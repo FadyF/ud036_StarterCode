@@ -23,7 +23,36 @@
 
 ## Usage
   
-  `fresh_tomatoes.open_movies_page(movies)` allow the creation of an html file
+  -in the "entertainement_center_movies" file :
+   
+   * we import _fresh_tomatoes_ file which contains codes for the html page,
+     and  _media_ file which contain movie variables.
+  
+  - _media_  file:
+   
+   def __init__(self, movie_title, movie_duration, movie_release_date, movie_storyline,movie_director, poster_image,
+                 trailer_youtube, movie_rating):
+                 
+  
+  - _fresh_tomatoes_ file:
+     
+     content += movie_tile_content.format(
+            movie_title=movie.title,
+            movie_duration=movie.duration,
+            movie_release_date=movie.release_date,
+            movie_storyline=movie.storyline,
+            movie_director=movie.director,
+            poster_image_url=movie.poster_image_url,
+            trailer_youtube_id=trailer_youtube_id,
+            movie_rating=movie.rating
+        )
+    return content
+    
+  -`fresh_tomatoes.open_movies_page(movies)` allow the creation of an html file.
+  To run this program open the "entertainement_center_movies", the movies instances 
+  are assigned to the variable "movies" which `fresh_tomatoes.open_movies_pag` function uses
+  to create the html file. Click Run Module and the browser will open with webpage. 
+  
 
 ## Contributions
   
